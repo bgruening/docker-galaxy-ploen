@@ -331,7 +331,7 @@ RUN install-repository \
 RUN install-repository \
     #"--url http://testtoolshed.g2.bx.psu.edu/ -o iuc --name package_deseq2_1_6_1" \
     #"--url http://testtoolshed.g2.bx.psu.edu/ -o bgruening --name deseq2" \
-    "--url http://toolshed.g2.bx.psu.edu/ -o lparsons --name htseq_count" \
+    #"--url http://toolshed.g2.bx.psu.edu/ -o lparsons --name htseq_count" \
     "--url http://toolshed.g2.bx.psu.edu/ -o devteam --name suite_cufflinks_2_2_1"
 
 
