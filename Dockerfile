@@ -304,28 +304,28 @@ RUN install-repository \
     "--url https://toolshed.g2.bx.psu.edu -o devteam --name cuffmerge --panel-section-name 'NGS:_RNA-seq'" \
     "--url https://toolshed.g2.bx.psu.edu -o devteam --name samtools_flagstat --panel-section-name 'NGS:_SAMtools'"
 
-RUN install-repository \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name dna_filtering --panel-section-name 'Filter_and_Sort'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name substitution_rates --panel-section-name 'Regional_Variation'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name generate_pc_lda_matrix --panel-section-name 'Statistics'" \
-    "--url https://toolshed.g2.bx.psu.edu -o gregory-minevich --name cloudmap_in_silico_complementation --panel-section-name 'NGS:_Variant_Analysis'" \
-    "--url https://toolshed.g2.bx.psu.edu -o blankenberg --name naive_variant_caller --panel-section-name 'NGS:_Variant_Analysis'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name samtools_rmdup --panel-section-name 'NGS:_SAMtools'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name logistic_regression_vif --panel-section-name 'Regional_Variation'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name samtools_split --panel-section-name 'NGS:_SAMtools'"
+#RUN install-repository \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name dna_filtering --panel-section-name 'Filter_and_Sort'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name substitution_rates --panel-section-name 'Regional_Variation'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name generate_pc_lda_matrix --panel-section-name 'Statistics'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o gregory-minevich --name cloudmap_in_silico_complementation --panel-section-name 'NGS:_Variant_Analysis'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o blankenberg --name naive_variant_caller --panel-section-name 'NGS:_Variant_Analysis'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name samtools_rmdup --panel-section-name 'NGS:_SAMtools'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name logistic_regression_vif --panel-section-name 'Regional_Variation'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name samtools_split --panel-section-name 'NGS:_SAMtools'"
 
-RUN install-repository \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name megablast_xml_parser --panel-section-name 'NGS:_Mapping'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name find_diag_hits --panel-section-name 'Metagenomic_analyses'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name lda_analysis --panel-section-name 'Statistics'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name vcftools_slice --panel-section-name 'NGS:_Variant_Analysis'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name macs --panel-section-name 'NGS:_Peak_Calling'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name microsats_mutability --panel-section-name 'Regional_Variation'" \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name vcf2pgsnp --panel-section-name 'Phenotype_Association'"
+#RUN install-repository \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name megablast_xml_parser --panel-section-name 'NGS:_Mapping'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name find_diag_hits --panel-section-name 'Metagenomic_analyses'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name lda_analysis --panel-section-name 'Statistics'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name vcftools_slice --panel-section-name 'NGS:_Variant_Analysis'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name macs --panel-section-name 'NGS:_Peak_Calling'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name microsats_mutability --panel-section-name 'Regional_Variation'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name vcf2pgsnp --panel-section-name 'Phenotype_Association'"
 
-RUN install-repository \
-    "--url https://toolshed.g2.bx.psu.edu -o devteam --name realigner_target_creator --panel-section-name 'NGS:_GATK_Tools_(beta)'" \
-    "--url https://toolshed.g2.bx.psu.edu -o guru-ananda --name karyotype_plot --panel-section-name 'Regional_Variation'"
+#RUN install-repository \
+#    "--url https://toolshed.g2.bx.psu.edu -o devteam --name realigner_target_creator --panel-section-name 'NGS:_GATK_Tools_(beta)'" \
+#    "--url https://toolshed.g2.bx.psu.edu -o guru-ananda --name karyotype_plot --panel-section-name 'Regional_Variation'"
 
 # deepseq
 RUN install-repository \
