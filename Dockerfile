@@ -2,7 +2,7 @@
 #
 # VERSION       0.1
 
-FROM bgruening/galaxy-usegalaxy
+FROM bgruening/usegalaxy
 
 MAINTAINER Bjoern A. Gruening, bjoern.gruening@gmail.com
 
